@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
 
-        LogService.info("asdasdasds");
+        LogService.info("asdasdasdsggggggggg");
 
 
 
@@ -40,18 +40,18 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void run() {
 
-                JSONObject jsonObject = HttpUtil.requestBody(reqUrl,method,reqBody);
-
-                try
-                {
-                    LogService.info(jsonObject.get("result").toString());
-                    LogService.info(jsonObject.toString());
-                }catch(Exception ex)
-                {
-
-                }
-
-
+//                JSONObject jsonObject = HttpUtil.requestBody(reqUrl,method,reqBody);
+//
+//                try
+//                {
+//                    LogService.info(jsonObject.get("result").toString());
+//                    LogService.info(jsonObject.toString());
+//                }catch(Exception ex)
+//                {
+//
+//                }
+//
+//
 
             }
         }).start();
