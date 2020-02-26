@@ -5,4 +5,5 @@ public class testclass {
     String bb;
     String ccc;
     String ddd;
+    String ee;
 }
