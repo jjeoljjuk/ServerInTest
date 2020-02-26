@@ -4,4 +4,5 @@ public class testclass {
     String aaa;
     String bb;
     String ccc;
+    String ddd;
 }
